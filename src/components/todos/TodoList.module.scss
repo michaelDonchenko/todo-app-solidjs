@@ -1,0 +1,90 @@
+.textInput {
+    padding: 16px;
+    font-size: 22px;
+    border: 1px solid #ccc;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+.inputContainer {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 40px;
+}
+
+.generalInfoContainer {
+    margin: 20px 0;
+}
+
+.actionsContainer {
+    display: flex;
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 300px;
+    padding: 16px;
+    font-size: 18px;
+    transition: background-color 0.2s ease-in;
+
+    &:hover {
+        background-color: #3e8e41;
+    }
+}
+
+.todoItem {
+    background-color: #f9f9f9;
+    padding: 8px;
+    border-radius: 8px;
+    margin: 8px;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 18px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px;
+}
+
+.completed {
+    color: lightgray;
+    text-decoration: line-through;
+}
+
+.toggleButton {
+    background-color: #4071ba;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 100px;
+    padding: 6px;
+    font-size: 18px;
+    transition: background-color 0.2s ease-in;
+
+    &:hover {
+        background-color: #3368b6;
+    }
+}
+
+.deleteButton {
+    background-color: #ec0d0d;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 140px;
+    padding: 6px;
+    font-size: 18px;
+    transition: background-color 0.2s ease-in;
+
+    &:hover {
+        background-color: #b60909;
+    }
+}
+
